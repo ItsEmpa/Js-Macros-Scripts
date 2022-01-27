@@ -33,7 +33,6 @@ if (reverse) {
     Chat.log(Chat.createTextBuilder().append("[").withColor(0x7).append("Utils").withColor(0x6).append("]").withColor(0x7).append(" AutoTotem").withColor(0xd).append(" disabled").withColor(0xc).build());
 }
 while (GlobalVars.getBoolean("autoTotemModuleState")) {
-    Chat.say("a")
     if (hasItemSelected(totem) == "false") {
         let totemSlots = getItemSlots(totem)
         if (!!totemSlots.length) {
